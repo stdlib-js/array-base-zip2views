@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zip2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zip2views@deno/mod.js';
+import zip2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zip2views@v0.1.1-deno/mod.js';
 ```
 
 #### zip2views( arrays, labels )
@@ -113,7 +113,7 @@ Each element in the returned array is a class instance having prototype properti
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import zip2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zip2views@deno/mod.js';
+import zip2views from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zip2views@v0.1.1-deno/mod.js';
 
 var x = zeroTo( 10 );
 var y = discreteUniform( x.length, -100, 100 );
