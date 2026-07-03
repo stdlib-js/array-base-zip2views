@@ -1,5 +1,0 @@
-"use strict";var k=function(o,i){return function(){try{return i||o((i={exports:{}}).exports,i),i.exports}catch(a){throw (i=0, a)}};};var N=k(function(V,y){
-var g=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),w=require('@stdlib/utils-define-read-write-accessor/dist'),x=require('@stdlib/array-base-accessors/dist'),q=require('@stdlib/array-base-copy/dist');function J(o,i){var a,l,n,v,f,c,s,p,r;if(s=o.length,s<1)return[];if(n=q(o),p=n[0].length,p<1)return[];for(c=[],r=0;r<s;r++)c.push(x(n[r]).accessors);v=q(i);function h(e){return g(this,"_i",e),this}for(r=0;r<s;r++)a=m(n[r],c[r][0]),l=O(n[r],c[r][1]),w(h.prototype,v[r],a,l);for(g(h.prototype,"toJSON",_),f=[],r=0;r<p;r++)f.push(new h(r));return f;function m(e,u){return t;function t(){return u(e,this._i)}}function O(e,u){return t;function t(d){u(e,this._i,d)}}function _(){var e,u,t;for(e={},t=0;t<s;t++)u=v[t],e[u]=this[u];return e}}y.exports=J
-});var R=N();module.exports=R;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
